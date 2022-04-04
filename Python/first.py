@@ -1,5 +1,5 @@
 #!/usr/bin/python
-print ("hello world")
+f = open("birds.txt", "r")
 
 
 
