@@ -1,2 +1,0 @@
-BullseyeCoverage 8.17.5 error 15: Cannot find C:\Program Files\Common Files\AV\McAfee VirusScan/test.cov, errno=2 "Het systeem kan het opgegeven bestand niet vinden. ". COVFILE is not set
-

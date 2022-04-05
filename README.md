@@ -1,2 +1,0 @@
-# AI
-Fontys ICT AI
