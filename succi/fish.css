@@ -59,7 +59,7 @@ body {
 .fish-side-tail {
     width: 0;
     height: 0;
-    border-right: 5vw solid rgba(173, 20, 20, 0.53);
+    border-right: 7vw solid rgba(173, 20, 20, 0.53);
     border-top: 1vw solid transparent;
     border-bottom: 1vw solid transparent;
     position: relative;
@@ -151,7 +151,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 20vw;
+    bottom: -10vw;
     right: 20vw;
     animation-name: up;
     animation-duration: 10s;
@@ -174,7 +174,7 @@ body {
     align-items: center;
     position: absolute;
     bottom: 5vw;
-    right: 5vw;
+    right: -1vw;
     animation-name: side;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -182,11 +182,11 @@ body {
 }
 
 .fish6 {
-    background: rgba(0, 0, 0, 0.53);
+    background: black;
 }
 
 .fish-side-tail {
-    background: rgba(0, 0, 0, 0.53);
+    background: black;
 }
 
 @keyframes move {
@@ -206,7 +206,8 @@ body {
 
 @keyframes up {
     0% {
-        margin-bottom: 100%;
+        margin-bottom: 200%;
+        opacity: 0;
     }
 }
 
